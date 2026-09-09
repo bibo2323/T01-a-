@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Televisions | PowerWatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Same nav as index.html, but this page's link doesn't need a class,
+       JS will add the "active" class automatically based on data-page -->
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="PowerIcon.png" alt="PowerWatch logo" class="logo">
+        PowerWatch
+      </a>
+      <ul>
+        <li><a href="index.html" class="nav-link" data-page="index">Home</a></li>
+        <li><a href="televisions.html" class="nav-link" data-page="televisions">Televisions</a></li>
+        <li><a href="about.html" class="nav-link" data-page="about">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Televisions</h1>
+    <p>
+      Screen size and usage pattern are the two biggest factors in a
+      television's yearly energy draw. Figures below are placeholder
+      data for demonstration.
+    </p>
+
+    <!-- Simple table showing made-up stats -->
+    <table>
+      <tr>
+        <th>Screen size</th>
+        <th>Power draw (active)</th>
+        <th>Standby draw</th>
+        <th>Est. yearly cost</th>
+      </tr>
+      <tr>
+        <td>32"</td>
+        <td>50W</td>
+        <td>0.5W</td>
+        <td>$28</td>
+      </tr>
+      <tr>
+        <td>55"</td>
+        <td>90W</td>
+        <td>0.8W</td>
+        <td>$52</td>
+      </tr>
+      <tr>
+        <td>75"</td>
+        <td>150W</td>
+        <td>1.2W</td>
+        <td>$86</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name Here</p>
+    <p>Some content and code on this site was created with the assistance of GitHub Copilot.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
