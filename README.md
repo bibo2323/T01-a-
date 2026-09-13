@@ -1,11 +1,11 @@
 # PowerWatch — Appliance Energy Consumption Website
 
-A small website built for COS30045 Task 01, demonstrating HTML, CSS,
+Website built for COS30045 Task 01(a), demonstrating HTML, CSS,
 JavaScript, and GitHub workflow. Explores appliance energy consumption
 in the Australian market, focusing on televisions.
 
 ## Live site
-https://your-project-name.vercel.app/
+https://t01-a-git-main-bibo12.vercel.app/
 
 ## Tools used
 - Visual Studio Code
@@ -14,14 +14,7 @@ https://your-project-name.vercel.app/
 - GitHub Copilot / Claude (GenAI assistance)
 
 ## GenAI usage notes
-I used [Copilot/Claude] to help me:
-- Understand the basic structure of an HTML page with nav and footer
-- Write the CSS for styling the nav bar and cards
-- Write simple JavaScript to highlight the active nav link and update
-  the footer year automatically
+I used Copilot and Claude to help me to understand the basic structure of an HTML page with nav and footer. Write the CSS for purple styling the nav bar and cards. Write simple JavaScript to highlight the active nav link and update the footer year automatically.
 
 ## Reflection
-Write 3-5 sentences here about your actual experience — e.g. what was
-easy/hard, what you learned, whether you had to fix or change anything
-the AI gave you, and whether you understood the code well enough to
-explain it.
+As someone who has little knowledge with Knime it was nice to explore the application. It shows me how easy it is to import data and organise it. Using gen Ai to help with the website building also shows me how fast it can be built but also with human supervision.
